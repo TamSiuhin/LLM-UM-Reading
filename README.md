@@ -512,7 +512,7 @@ If you have come across relevant resources, feel free to open an issue or submit
 @article{tan2023user,
   title={User Modeling in the Era of Large Language Models: Current Research and Future Directions},
   author={Tan, Zhaoxuan and Jiang, Meng},
-  journal={arXiv preprint arXiv:2312.11518},
+  journal={IEEE Data Engineering Bulletin},
   year={2023}
 }
 ```
