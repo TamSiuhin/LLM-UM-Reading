@@ -3,7 +3,11 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 
-This repository contains a list of papers on large language models for user modeling (LLM-UM) based on our survey paper: [**User Modeling in the Era of Large Language Models: Current Research and Future Directions**](https://arxiv.org/abs/2312.11518). We categorize them based on their approaches and applications.
+This repository contains a list of papers on large language models for user modeling (LLM-UM) based on our survey paper: 
+
+[**User Modeling in the Era of Large Language Models: Current Research and Future Directions**](https://arxiv.org/abs/2312.11518). 
+
+[Zhaoxuan Tan](https://zhaoxuan.info/) and [Meng Jiang](http://www.meng-jiang.com/).
 
 
 We will try to make this list updated. If you find any error or any missed paper, please don't hesitate to open an issue or pull request.
