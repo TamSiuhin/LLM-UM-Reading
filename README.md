@@ -9,7 +9,7 @@ We categorize existing works based on their [approaches](#approaches-to-llm-um) 
 We will try to make this list updated. If you find any error or any missed paper, please don't hesitate to open an issue or pull request.
 
 <div  align="center">    
-<img src="./asset/intro.png" width="50%" height="50%">
+<img src="./asset/intro.png" width="70%" height="50%">
 </div>
 
 
