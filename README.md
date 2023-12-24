@@ -4,7 +4,7 @@
 
 
 This repository contains a list of papers on large language models for user modeling (LLM-UM) based on our survey paper: [**User Modeling in the Era of Large Language Models: Current Research and Future Directions**](https://arxiv.org/abs/2312.11518) (*[Zhaoxuan Tan](https://zhaoxuan.info/) and [Meng Jiang](http://www.meng-jiang.com/)*).
-We categorize existing works based on their approaches and applications.
+We categorize existing works based on their [approaches](#approaches-to-llm-um) and [applications](#applications-of-llm-um).
 
 We will try to make this list updated. If you find any error or any missed paper, please don't hesitate to open an issue or pull request.
 
