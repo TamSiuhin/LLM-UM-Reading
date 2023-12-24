@@ -3,12 +3,8 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 
-This repository contains a list of papers on large language models for user modeling (LLM-UM) based on our survey paper: 
-
-[**User Modeling in the Era of Large Language Models: Current Research and Future Directions**](https://arxiv.org/abs/2312.11518). 
-
-[Zhaoxuan Tan](https://zhaoxuan.info/) and [Meng Jiang](http://www.meng-jiang.com/).
-
+This repository contains a list of papers on large language models for user modeling (LLM-UM) based on our survey paper: [**User Modeling in the Era of Large Language Models: Current Research and Future Directions**](https://arxiv.org/abs/2312.11518) (*[Zhaoxuan Tan](https://zhaoxuan.info/) and [Meng Jiang](http://www.meng-jiang.com/)*).
+We categorize existing works based on their approaches and applications.
 
 We will try to make this list updated. If you find any error or any missed paper, please don't hesitate to open an issue or pull request.
 
@@ -20,7 +16,7 @@ We will try to make this list updated. If you find any error or any missed paper
 ## Motivation: Why LLMs for User Modeling?
 
 <div  align="center">    
-<img src="./asset/LLM-UM_Fig2.png" width="70%" height="50%">
+<img src="./asset/LLM-UM_Fig2.png" width="100%" height="50%">
 </div>
 
 LLMs have shown promising potential in modeling and comprehending user-generated content (UGC), as evidenced by various studies and examples. One area of focus is utilizing LLMs for recommendation purposes, where they can predict users' item-based interests based on their behavior history. User profiling is another domain where LLMs excel, summarizing users' characteristics and interests from their generated content and history. In the context of rating prediction, LLMs can leverage reasoning based on users' previous ratings to predict ratings for candidate items. Additionally, LLMs demonstrate the ability to understand user personality and recognize it based on UGC history. They also prove effective in detecting suspicious UGC, such as hate speech. These findings collectively illustrate the capabilities of LLMs in modeling, understanding, and reasoning UGC and user behavior, making them valuable tools for user-oriented applications.
@@ -30,7 +26,7 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 ### LLMs as Predictors
 
 <div  align="center">    
-<img src="./asset/LLM-UM_Predictors.png" width="70%" height="70%">
+<img src="./asset/LLM-UM_Predictors.png" width="100%" height="70%">
 </div>
 
 #### Common Generative Reasoner
@@ -336,7 +332,7 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 #### Feature Encoder
 
 <div  align="center">    
-<img src="./asset/LLM-UM_Enhancers.png" width="80%" height="70%">
+<img src="./asset/LLM-UM_Enhancers.png" width="100%" height="70%">
 </div>
 
 - **Are GPT Embeddings Useful for Ads and Recommendation? [[link]](https://dl.acm.org/doi/abs/10.1007/978-3-031-40292-0_13)**
@@ -459,7 +455,7 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 
 
 <div  align="center">    
-<img src="./asset/LLM-UM_controller_evaluator.png" width="80%" height="70%">
+<img src="./asset/LLM-UM_controller_evaluator.png" width="100%" height="70%">
 </div>
 
 
@@ -493,6 +489,236 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 - **Towards Automated Generation and Evaluation of Questions in Educational Domains [[link]](https://www.cs.cmu.edu/~hn1/papers/EDM2022_TowardsAutomated.pdf)**
 
 - **Generative Job Recommendations with Large Language Model [[link]](https://arxiv.org/abs/2307.02157)**
+
+## Applications of LLM-UM
+
+### Personalization
+#### User Profiling
+
+- **How would Stance Detection Techniques Evolve after the Launch of ChatGPT? [[link]](https://arxiv.org/abs/2212.14548)**
+
+- **Ladder-of-Thought: Using Knowledge as Steps to Elevate Stance Detection [[link]](https://arxiv.org/abs/2308.16763)**
+
+- **Navigating Prompt Complexity for Zero-Shot Classification: A Study of Large Language Models in Computational Social Science [[link]](https://arxiv.org/abs/2305.14310)**
+
+- **Can Large Language Models Transform Computational Social Science? [[link]](https://arxiv.org/abs/2305.03514)**
+
+- **SentimentGPT: Exploiting GPT for Advanced Sentiment Analysis and its Departure from Current Machine Learning [[link]](https://arxiv.org/abs/2307.10234)**
+
+- **Large Language Models Can Be Used to Estimate the Latent Positions of Politicians [[link]](https://arxiv.org/abs/2303.12057)**
+
+- **Can ChatGPT Assess Human Personalities? A General Evaluation Framework [[link]](https://arxiv.org/abs/2303.01248)**
+
+- **Is ChatGPT a Good Personality Recognizer? A Preliminary Study [[link]](https://arxiv.org/abs/2307.03952)**
+
+- **Large Language Models for User Interest Journeys [[link]](https://arxiv.org/abs/2305.15498)**
+
+
+#### Personalized Recommendation
+
+*Top-k Recommendation*
+
+- **Uncovering ChatGPT's Capabilities in Recommender Systems [[link]](https://arxiv.org/abs/2305.02182)**
+
+- **Enhancing Job Recommendation through LLM-based Generative Adversarial Networks [[link]](https://arxiv.org/abs/2307.10747)**
+
+- **Large Language Models are Zero-Shot Rankers for Recommender Systems [[link]](https://arxiv.org/abs/2305.08845)**
+
+- **Is ChatGPT a Good Recommender? A Preliminary Study [[link]](https://arxiv.org/abs/2304.10149)**
+
+- **ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models [[link]](https://arxiv.org/abs/2305.06566)**
+
+- **Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models [[link]](https://arxiv.org/abs/2305.13112)**
+
+- **Is ChatGPT Fair for Recommendation? Evaluating Fairness in Large Language Model Recommendation [[link]](https://arxiv.org/abs/2305.07609)**
+
+
+- **Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach [[link]](https://arxiv.org/abs/2305.07001)**
+
+- **PALR: Personalization Aware LLMs for Recommendation [[link]](https://arxiv.org/abs/2305.07622)**
+
+- **GenRec: Large Language Model for Generative Recommendation [[link]](https://arxiv.org/abs/2307.00457)**
+
+- **Generative Job Recommendations with Large Language Model [[link]](https://arxiv.org/abs/2307.02157)**
+
+*Rating Prediction*
+
+- **BookGPT: A General Framework for Book Recommendation Empowered by Large Language Model [[link]](https://arxiv.org/abs/2305.15673)**
+
+- **Uncovering ChatGPT's Capabilities in Recommender Systems [[link]](https://arxiv.org/abs/2305.02182)**
+
+- **Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models [[link]](https://arxiv.org/abs/2306.10933)**
+
+- **Do LLMs Understand User Preferences? Evaluating LLMs On User Rating Prediction [[link]](https://arxiv.org/abs/2305.06474)**
+
+- **TALLRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation [[link]](https://arxiv.org/abs/2305.00447)**
+
+- **Exploring Large Language Model for Graph Data Understanding in Online Job Recommendations [[link]](https://arxiv.org/abs/2307.05722)**
+
+- **Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT [[link]](https://arxiv.org/abs/2304.11116)**
+
+*Conversational Recommendation*
+
+- **Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System [[link]](https://arxiv.org/abs/2303.14524)**
+
+- **Generative Recommendation: Towards Next-generation Recommender Paradigm [[link]](https://arxiv.org/abs/2304.03516)**
+
+- **Sparks of Artificial General Recommender (AGR): Early Experiments with ChatGPT [[link]](https://arxiv.org/abs/2305.04518)**
+
+
+#### Persoanlized Assistance
+
+- **Is ChatGPT the Ultimate Programming Assistant -- How far is it? [[link]](https://arxiv.org/abs/2304.11938)**
+
+- **Roll Up Your Sleeves: Working with a Collaborative and Engaging Task-Oriented Dialogue System [[link]](https://arxiv.org/abs/2307.16081)**
+
+- **LaMP: When Large Language Models Meet Personalization [[link]](https://arxiv.org/abs/2304.11406)**
+
+- **DISC-LawLLM: Fine-tuning Large Language Models for Intelligent Legal Services [[link]](https://arxiv.org/abs/2309.11325)**
+
+- **FinGPT: Democratizing Internet-scale Data for Financial Large Language Models [[link]](https://arxiv.org/abs/2307.10485)**
+
+- **Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers [[link]](https://arxiv.org/abs/2309.12570)**
+
+
+#### Personalized Dialogue System
+
+- **Are LLMs All You Need for Task-Oriented Dialogue? [[link]](https://arxiv.org/abs/2304.06556v2)**
+
+- **DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue [[link]](https://arxiv.org/abs/2308.08043)**
+
+- **A Personalized Dialogue Generator with Implicit User Persona Detection [[link]](https://arxiv.org/abs/2204.07372)**
+
+- **RefGPT: Dialogue Generation of GPT, by GPT, and for GPT [[link]](https://arxiv.org/abs/2305.14994)**
+
+
+#### Personalized Education
+
+- **"With Great Power Comes Great Responsibility!": Student and Instructor Perspectives on the influence of LLMs on Undergraduate Engineering Education [[link]](https://arxiv.org/abs/2309.10694)**
+
+
+- **Practical and Ethical Challenges of Large Language Models in Education: A Systematic Scoping Review [[link]](https://arxiv.org/abs/2303.13379)**
+
+- **What Should Data Science Education Do with Large Language Models? [[link]](https://arxiv.org/abs/2307.02792)**
+
+- **Developing Effective Educational Chatbots with ChatGPT prompts: Insights from Preliminary Tests in a Case Study on Social Media Literacy (with appendix) [[link]](https://arxiv.org/abs/2306.10645)**
+
+- **EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education [[link]](https://arxiv.org/abs/2308.02773)**
+
+- **Performance of ChatGPT on USMLE: Unlocking the Potential of Large Language Models for AI-Assisted Medical Education [[link]](https://arxiv.org/abs/2307.00112)**
+
+- **How Useful are Educational Questions Generated by Large Language Models? [[link]](https://arxiv.org/abs/2304.06638)**
+
+- **Are Large Language Models Fit For Guided Reading? [[link]](https://arxiv.org/abs/2305.10645)**
+
+- **Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors [[link]](https://arxiv.org/abs/2306.17156)**
+
+
+#### Personalized Healthcare
+
+- **Large Language Models are Few-Shot Health Learners [[link]](https://arxiv.org/abs/2305.15525)**
+         
+- **Are Large Language Models Ready for Healthcare? A Comparative Study on Clinical Language Understanding [[link]](https://arxiv.org/abs/2304.05368)**
+
+- **Multimodal LLMs for health grounded in individual-specific data [[link]](https://arxiv.org/abs/2307.09018)**
+
+- **PharmacyGPT: The AI Pharmacist [[link]](https://arxiv.org/abs/2307.10432)**
+
+- **The Potential and Pitfalls of using a Large Language Model such as ChatGPT or GPT-4 as a Clinical Assistant [[link]](https://arxiv.org/abs/2307.08152)**
+
+- **Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue [[link]](https://arxiv.org/abs/2308.03549)**
+
+- **ChatGPT for Suicide Risk Assessment on Social Media: Quantitative Evaluation of Model Performance, Potentials and Limitations [[link]](https://arxiv.org/abs/2306.09390)**
+
+- **Supervised Learning and Large Language Model Benchmarks on Mental Health Datasets: Cognitive Distortions and Suicidal Risks in Chinese Social Media [[link]](https://arxiv.org/abs/2309.03564)**
+
+- **UMASS_BioNLP at MEDIQA-Chat 2023: Can LLMs generate high-quality synthetic note-oriented doctor-patient conversations? [[link]](https://arxiv.org/abs/2306.16931)**
+
+- **LLM-empowered Chatbots for Psychiatrist and Patient Simulation: Application and Evaluation [[link]](https://arxiv.org/abs/2305.13614)**
+
+- **Enhancing Psychological Counseling with Large Language Model: A Multifaceted Decision-Support System for Non-Professionals [[link]](https://arxiv.org/abs/2308.15192)**
+
+- **Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data [[link]](https://arxiv.org/abs/2307.14385)**
+
+- **Psy-LLM: Scaling up Global Mental Health Psychological Services with AI-based Large Language Models [[link]](https://arxiv.org/abs/2307.11991)**
+
+- **Large Language Models Can Infer Psychological Dispositions of Social Media Users [[link]](https://arxiv.org/abs/2309.08631)**
+
+
+### Suspiciousness Detection
+
+#### Fraud Detection
+
+- **Clickbait Detection via Large Language Models [[link]](https://arxiv.org/abs/2306.09597)**
+
+- **Anatomy of an AI-powered malicious social botnet [[link]](https://arxiv.org/abs/2307.16336)**
+
+- **Spam-T5: Benchmarking Large Language Models for Few-Shot Email Spam Detection [[link]](https://arxiv.org/abs/2304.01238)**
+
+- **The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention [[link]](https://arxiv.org/abs/2307.11864)**
+
+- **Catch Me If You Can: Identifying Fraudulent Physician Reviews with Large Language Models Using Generative Pre-Trained Transformers [[link]](https://arxiv.org/abs/2304.09948)**
+
+- **Explaining tree model decisions in natural language for network
+intrusion detection [[link]](https://arxiv.org/abs/2304.09948)**
+
+
+#### Discrimination Detection
+
+- **Detecting Hate Speech with GPT-3 [[link]](https://arxiv.org/abs/2103.12407)**
+
+- **Enhancing social network hate detection using back translation and GPT-3 augmentations during training and test-time [[link]](https://www.sciencedirect.com/science/article/pii/S1566253523002038)**
+
+- **Respectful or Toxic? Using Zero-Shot Learning with Language Models to Detect Hate Speech [[link]](https://aclanthology.org/2023.woah-1.6/)**
+
+- **Evaluating ChatGPT's Performance for Multilingual and Emoji-based Hate Speech Detection [[link]](https://arxiv.org/abs/2305.13276)**
+
+- **Evaluating GPT-3 Generated Explanations for Hateful Content Moderation [[link]](https://arxiv.org/abs/2305.17680)**
+
+
+#### Misinformation Detection
+
+- **Can LLM-Generated Misinformation Be Detected? [[link]](https://arxiv.org/abs/2309.13788)**
+
+- **Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Model [[link]](https://arxiv.org/abs/2309.04704)**
+
+- **Large language models can rate news outlet credibility [[link]](https://arxiv.org/abs/2304.00228)**
+
+- **On the Risk of Misinformation Pollution with Large Language Models [[link]](https://arxiv.org/abs/2305.13661)**
+
+- **Detecting Misinformation with LLM-Predicted Credibility Signals and Weak Supervision [[link]](https://arxiv.org/abs/2309.07601)**
+
+- **Fake News Detectors are Biased against Texts Generated by Large Language Models [[link]](https://arxiv.org/abs/2309.08674)**
+
+- **Harnessing the Power of ChatGPT in Fake News: An In-Depth Exploration in Generation, Detection and Explanation [[link]](https://arxiv.org/abs/2310.05046)**
+
+#### LLM-Generated Text Detection
+
+- **Detecting ChatGPT: A Survey of the State of Detecting ChatGPT-Generated Text [[link]](https://arxiv.org/abs/2309.07689)**
+
+- **Large Language Models can be Guided to Evade AI-Generated Text Detection [[link]](https://arxiv.org/abs/2305.10847)**
+
+- **To ChatGPT, or not to ChatGPT: That is the question! [[link]](https://arxiv.org/abs/2304.01487)**
+
+- **The Science of Detecting LLM-Generated Texts [[link]](https://arxiv.org/abs/2303.07205)**
+
+- **Will ChatGPT get you caught? Rethinking of Plagiarism Detection [[link]](https://arxiv.org/abs/2302.04335)**
+
+- **How Large Language Models are Transforming Machine-Paraphrased Plagiarism [[link]](https://arxiv.org/abs/2210.03568)**
+
+- **Evade ChatGPT Detectors via A Single Space [[link]](https://arxiv.org/abs/2307.02599)**
+
+- **GPT Paternity Test: GPT Generated Text Detection with GPT Genetic Inheritance [[link]](https://arxiv.org/abs/2305.12519)**
+
+- **Is ChatGPT Involved in Texts? Measure the Polish Ratio to Detect ChatGPT-Generated Text [[link]](https://arxiv.org/abs/2307.11380)**
+
+- **Detecting llm-generated text in computing education: A
+comparative study for chatgpt cases [[link]](https://arxiv.org/abs/2307.11380)**
+
+- **CoCo: Coherence-Enhanced Machine-Generated Text Detection Under Data Limitation With Contrastive Learning [[link]](https://arxiv.org/abs/2212.10341)**
+
+
+- **Fighting Fire with Fire: Can ChatGPT Detect AI-generated Text? [[link]](https://arxiv.org/abs/2308.01284)**
 
 ## Contributing
 
