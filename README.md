@@ -453,6 +453,7 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 
 - **RefGPT: Dialogue Generation of GPT, by GPT, and for GPT [[link]](https://arxiv.org/abs/2305.14994)**
 
+- **On Generative Agents in Recommendation [[link]](https://arxiv.org/abs/2310.10108)**
 
 <div  align="center">    
 <img src="./asset/LLM-UM_controller_evaluator.png" width="100%" height="70%">
