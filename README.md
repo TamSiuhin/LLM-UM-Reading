@@ -119,6 +119,8 @@ LLMs have shown promising potential in modeling and comprehending user-generated
     
     
 - **Large Language Model as a User Simulator [[link]](https://arxiv.org/abs/2308.11534)**
+
+- **CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents [[link]](https://arxiv.org/abs/2608.16897)**
     
     
 - **Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT [[link]](https://arxiv.org/abs/2304.11116)**
