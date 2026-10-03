@@ -31,6 +31,9 @@ LLMs have shown promising potential in modeling and comprehending user-generated
 
 #### Common Generative Reasoner
 
+- **TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models [[link]](https://arxiv.org/abs/2509.23140)**
+    
+    
 - **Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach [[link]](https://arxiv.org/abs/2305.07001)**
     
     
